@@ -16,3 +16,4 @@ def ask_claude(message: str) -> str:
         ]
     )
     return response.content[0].text
+
